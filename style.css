@@ -1,0 +1,157 @@
+h1 {
+  display: float;
+  font-size: 20px;
+  font-family: sans serif;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1em;
+  font-family: sans serif;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+a {text-decoration: none}
+
+a:link {
+	color: green;
+	text-decoration: none;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	color: orange;
+}
+a:active {
+	color: green;
+}
+
+.wrap{
+	background: #FFFFE0;
+	width: 100%;
+	margin: 10px auto;
+}
+
+/*bagian header*/
+.wrap .header{
+	background: white;
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+	background: white;
+}
+
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: white;
+	overflow: hidden;
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+
+.clear{
+	clear: both;
+}
+
+.badan{
+	height: 800px;
+}
+/*bagian sidebar*/
+
+
+.wrap .badan .sidebar{
+	background: #FFFFE0;
+	float: left;	
+	width: 20%;
+	height: 100%;
+}
+
+font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.search input[type=text] {
+  padding: 2px;
+  font-size: 14px;
+  border: 1px solid black;
+  float: left;
+  width: 70%;
+  background: white;
+}
+
+form.search button {
+  float: left;
+  width: 20%;
+  padding: 2px;
+  background: #2196F3;
+  color: white;
+  font-size: 14px;
+  border: 1px solid black;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.search button:hover {
+  background: #0b7dda;
+}
+
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*akhir sidebar*/
+
+ul {
+margin: 0 0 0 1em;
+padding: 0; 
+} 
+
+.wrap .badan .content_utama{
+	background: #FFFFFf;
+	float: left;
+	height: 100%;
+	width: 80%;	
+}
+.wrap .badan .content1{
+	background: #FFFFE0;
+	float: left;
+	height: 50%;
+	width: 100%;	
+}
+
+.wrap .badan .content2{
+	background: #FFFFE0;
+	float: left;
+	height: 50%;
+	width: 100%;	
+}
+
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
