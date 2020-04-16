@@ -38,7 +38,7 @@ a:active {
 .wrap{
 	background: #FFFFE0;
 	width: 100%;
-	margin: 10px auto;
+	margin: 0;
 }
 
 /*bagian header*/
@@ -74,7 +74,7 @@ a:active {
 }
 
 .badan{
-	height: 800px;
+	height: 750px;
 }
 /*bagian sidebar*/
 
